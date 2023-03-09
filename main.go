@@ -4,12 +4,13 @@ import (
 	"fmt"
 )
 
-func greeting(name string) string {
-	return fmt.Sprintf("Hello %s", name)
+func greeting(name string, age int) string {
+	return fmt.Sprintf("Hello %s. You are %d years old", name, age)
 }
 
 func main() {
 	fmt.Println("This is awesome project build on GoLang")
 	name := "eddie"
-	greeting(name)
+	age := 10
+	greeting(name, age)
 }
