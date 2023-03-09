@@ -13,4 +13,5 @@ func main() {
 	name := "eddie"
 	age := 10
 	greeting(name, age)
+	sayHello(name)
 }
